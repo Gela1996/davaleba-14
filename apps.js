@@ -41,3 +41,21 @@
 
 // დავალება 3
 
+// როგორ ვიპოვოთ table id-ით ‘age-table’
+let table = document.getElementById('age-table')
+
+// როგორ ვიპოვოთ ყველა label ელემენტი ცხრილში
+table.getElementsByTagName('label')
+
+// როგორ ვიპოვოთ პირველი td ამ ცხრილში
+table.getElementsByTagName('td')
+
+//როგორ ვიპოვოთ form name ატრიბუტით ‘search’
+let form = document.getElementsByName('search')[0]
+
+//როგორ ვიპოვოთ პირველი input ამ ფორმაში
+form.querySelector('input')
+
+//როგორ ვიპოვოთ ბოლო ინფუთი ამ ფორმაში 
+let inputs = form.querySelectorAll('input')
+inputs[inputs.length-1]
