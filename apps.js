@@ -31,12 +31,12 @@
 
 // დავალება 2
 
- let table = document.body.firstElementChild;
+// let table = document.body.firstElementChild;
 
- for (let i = 0; i < table.rows.length; i++) {
-  let row = table.rows[i];
-  row.cells[i].style.backgroundColor = 'red';
-}
+// for (let i = 0; i < table.rows.length; i++) {
+//  let row = table.rows[i];
+// row.cells[i].style.backgroundColor = 'red';
+// }
 
 
 // დავალება 3
